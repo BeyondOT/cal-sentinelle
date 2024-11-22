@@ -20,6 +20,7 @@ const isOrganizationsEnabled =
 // To be able to use the version in the app without having to import package.json
 process.env.NEXT_PUBLIC_CALCOM_VERSION = version;
 
+// this is to test
 // So we can test deploy previews preview
 if (process.env.VERCEL_URL && !process.env.NEXT_PUBLIC_WEBAPP_URL) {
   process.env.NEXT_PUBLIC_WEBAPP_URL = `https://${process.env.VERCEL_URL}`;
